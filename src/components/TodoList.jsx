@@ -1,6 +1,10 @@
 import React from 'react'
 import Todo from './Todo'
-function TodoList({todos,setTodos,filteredTodos}) {
+import { useSite } from "../context"
+
+function TodoList() {
+    
+  const {todos,setTodos,filteredTodos} = useSite();
     return (
 
 

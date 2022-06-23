@@ -1,7 +1,9 @@
 import React,{useState} from "react";
+import { useSite } from "../context"
 
-function Form({ inputText, setInputText, todos, setTodos, filter, setFilter, todoSearch, setTodoSearch }) {
+function Form() {
 
+    const { inputText, setInputText, todos, setTodos, filter, setFilter, todoSearch, setTodoSearch } = useSite()
 
     const inputTextHandler = (e) => {
         setInputText(e.target.value);
