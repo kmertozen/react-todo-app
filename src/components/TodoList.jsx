@@ -36,7 +36,7 @@ function TodoList() {
 
                     </li>
                 ))}
-                {filteredTodos.length === 0 &&(<li className='list-group-item text-center'>Todo Bulunamadı</li>)}
+                {filteredTodos.length === 0 &&(<li className='list-group-item text-center rounded-0'>Todo Bulunamadı</li>)}
 
             </ul>
         </div>

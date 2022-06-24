@@ -38,7 +38,7 @@ function Form() {
       };
 
     return (
-        <form className="w-50 mx-auto bg-white rounded-top pt-4 mt-5 position-relative">
+        <form className="w-50 mx-auto bg-white pt-4 position-relative">
             <header>
                 <h1 className="text-dark my-2">To Do List</h1>
             </header>
