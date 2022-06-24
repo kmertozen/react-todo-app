@@ -7,13 +7,10 @@ function App() {
 
 
   return (
-
     <Provider>
       <Form />
       <TodoList />
     </Provider>
-
-
   );
 }
 

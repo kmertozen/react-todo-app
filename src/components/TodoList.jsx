@@ -19,7 +19,9 @@ function TodoList() {
                     setTodos={setTodos}
                     />
                 ))}
-                
+                {todos.length === 0 && (
+				<li className='list-group-item text-center'>Henüz bir todo eklemediniz!</li>
+			)}
                 
             </ul>
         </div>
