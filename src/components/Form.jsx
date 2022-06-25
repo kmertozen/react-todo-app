@@ -8,7 +8,7 @@ function Form() {
     const inputTextHandler = (e) => {
         setInputText(e.target.value);
     }
-
+    
     const submitHandle = (e) => {
         e.preventDefault();
         if (inputText !== "") {
