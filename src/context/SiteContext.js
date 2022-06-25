@@ -30,9 +30,7 @@ const SiteProvider = ({ children }) => {
       useEffect(() => {
     
         setFilteredTodos(todos.filter((todo) => {
-          const indexOf = todo.text
-            .toLocaleLowerCase('TR')
-            .indexOf(todoSearch.toLocaleLowerCase('TR'))
+          const indexOf = todo.text.toLocaleLowerCase('TR').indexOf(todoSearch.toLocaleLowerCase('TR'))
           return indexOf !== -1
         }))
       }, [todos, todoSearch])
